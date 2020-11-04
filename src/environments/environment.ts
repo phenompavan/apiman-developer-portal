@@ -15,14 +15,14 @@
  */
 
 // This file can be replaced during build by using the `fileReplacements` array.
-// `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
+// `ng build --prod` replaces `environment.ts with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
   production: false,
-  apiMgmtRealm: '[keycloakRealm]',
-  apiMgmtUiRestUrl: 'https://[apimanUiRestEndpoint]:[port]/apiman',
-  keycloakAuthUrl: 'https://[keycloakEndpoint]:[port]/auth'
+  apiMgmtRealm: 'PhenomPeople',
+  apiMgmtUiRestUrl: 'http://localhost:8080/apiman',
+  keycloakAuthUrl: 'https://auth.phenompro.com/auth'
 };
 
 /*

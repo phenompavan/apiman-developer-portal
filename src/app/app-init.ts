@@ -34,7 +34,7 @@ export function initializer(keycloak: KeycloakService, tokenService: TokenServic
     config: {
       url: environment.keycloakAuthUrl,
       realm: environment.apiMgmtRealm,
-      clientId: 'devportal'
+      clientId: 'tpa'
     },
     initOptions: {
       onLoad: 'login-required',
