@@ -20,9 +20,9 @@
 
 export const environment = {
   production: false,
-  apiMgmtRealm: 'PhenomPeople',
+  apiMgmtRealm: 'apiman',
   apiMgmtUiRestUrl: 'http://localhost:8080/apiman',
-  keycloakAuthUrl: 'https://auth.phenompro.com/auth'
+  keycloakAuthUrl: 'https://auth-dev.phenompro.com/auth'
 };
 
 /*
